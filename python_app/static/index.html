@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Message systm API</title>
+</head>
+<body>
+
+<h3>Documentation on how this microservice works:</h3>
+<p>
+    The mircoservice has two end points: <br>
+    <ul>
+      <li>/add</li>
+      <li>/visualize</li>
+    </ul>
+<br>
+<h4>/ADD</h4>
+ Example of how to add a data poing to account number 123:
+ <br>
+ <br>
+    http://localhost/add?account_no=123&date=2017-01-01&ledger_balance=10&cleared_balance=10
+ <br>
+ <a href="http://localhost/add?account_no=123&date=2017-01-01&ledger_balance=10&cleared_balance=10"> TRY HERE</a>
+
+<br>
+
+<br>
+<h4>/VISUALIZE</h4>
+It is possible to visualize the balance historical data for an account number with this link format:
+<br>
+<br>
+http://localhost/visualize?account_no=123
+
+<br>
+</p>
+
+</body>
+</html>

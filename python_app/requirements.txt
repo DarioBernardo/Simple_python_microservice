@@ -1,0 +1,4 @@
+Flask==0.10.1
+gunicorn==19.4.5
+bokeh==0.12.2
+pandas==0.18.1
